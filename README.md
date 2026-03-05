@@ -59,7 +59,9 @@ qwen3.5-14b
 
 qwen3.5-27b
 
-GPU过热挂掉。
+无法正确处理。
+
+https://www.modelscope.cn/models/tiannlp/ChineseErrorCorrector3-4B
 
 
 
