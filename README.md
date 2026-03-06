@@ -63,5 +63,8 @@ qwen3.5-27b
 
 https://www.modelscope.cn/models/tiannlp/ChineseErrorCorrector3-4B
 
+效果不错，有误报
 
+https://github.com/mattzheng/py-kenlm-model
 
+错误检测部分先通过结巴中文分词器切词，由于句子中含有错别字，所以切词结果往往会有切分错误的情况，这样从字粒度和词粒度两方面检测错误，整合这两种粒度的疑似错误结果，形成疑似错误位置候选集
